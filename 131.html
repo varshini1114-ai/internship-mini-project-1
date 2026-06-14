@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit & Currency Converter</title>
+    <link rel="stylesheet" href="131.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🔄 Unit & Currency Converter</h1>
+
+    <select id="converterType">
+        <option value="currency">Currency</option>
+        <option value="length">Length</option>
+        <option value="weight">Weight</option>
+        <option value="temperature">Temperature</option>
+    </select>
+
+    <input
+        type="number"
+        id="amount"
+        placeholder="Enter Value">
+
+    <select id="from"></select>
+
+    <select id="to"></select>
+
+    <button onclick="convert()">
+        Convert
+    </button>
+
+    <h2 id="result">Result: </h2>
+
+</div>
+
+<script src="131.js"></script>
+
+</body>
+</html>
